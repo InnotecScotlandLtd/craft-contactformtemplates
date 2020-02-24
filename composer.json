@@ -1,0 +1,41 @@
+{
+    "name": "lukeyouell/craft-contactformtemplates",
+    "description": "Custom email templates for the Craft CMS Contact Form plugin",
+    "type": "craft-plugin",
+    "version": "1.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "contact form templates"
+    ],
+    "support": {
+        "docs": "https://github.com/lukeyouell/craft-contactformtemplates/blob/master/README.md",
+        "issues": "https://github.com/lukeyouell/craft-contactformtemplates/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Youell",
+            "homepage": "https://github.com/lukeyouell"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.1",
+        "craftcms/contact-form": "^2.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "lukeyouell\\contactformtemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Contact Form Templates",
+        "handle": "contact-form-templates",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/lukeyouell/craft-contactformtemplates/master/CHANGELOG.md",
+        "class": "lukeyouell\\contactformtemplates\\ContactFormTemplates"
+    }
+}
